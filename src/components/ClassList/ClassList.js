@@ -25,10 +25,10 @@ export default class ClassList extends Component {
   }
 
   render () {
-    const students = this.state.students.map((student, index) => {
+    const students = this.state.students.map((student, i) => {
       console.log(student)
       return (
-        <Link to={`/student/${student.id}`} key={index}>
+        <Link to={`/student/${student.id}`} key={i}>
           <h3>
             {student.first_name} {student.last_name}
           </h3>

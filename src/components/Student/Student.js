@@ -25,10 +25,10 @@ export default class Student extends Component {
   render() {
     return (
       <div className="box">
-        <h1>Student</h1>
+        <h1>Student:</h1>
           <h1> 
-              { this.state.studentInfo.firstName } 
-              { this.state.studentInfo.lastName }
+              { this.state.studentInfo.first_name } 
+              { this.state.studentInfo.last_name }
           </h1>
         <h3>Grade: { this.state.studentInfo.grade }</h3>
         <h3>Email: { this.state.studentInfo.email }</h3>
