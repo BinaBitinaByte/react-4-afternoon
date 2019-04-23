@@ -25,7 +25,8 @@ export default class About extends Component {
           <Switch>
             <Route path="/about/history" component={ History } />
             <Route path="/about/contact" component={ Contact } />
-            <Route path="/about"         render={() => (
+            <Route path="/about"         
+            render={() => (
                 <div>
                   <h1>About the University</h1>
                   <p>
